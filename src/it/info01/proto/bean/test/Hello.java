@@ -1,4 +1,4 @@
-package it.info01.update.bean.test;
+package it.info01.proto.bean.test;
 
 public class Hello
 {

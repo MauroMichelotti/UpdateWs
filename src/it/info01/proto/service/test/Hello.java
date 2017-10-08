@@ -1,4 +1,4 @@
-package it.info01.update.service.test;
+package it.info01.proto.service.test;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import it.info01.update.bean.test.DateBean;
+import it.info01.proto.bean.test.DateBean;
 
 @WebService
 @Path("hello")
@@ -38,7 +38,7 @@ public class Hello
     ObjectMapper mapper = new ObjectMapper();
 
     Date d = new Date();
-    it.info01.update.bean.test.Hello h = new it.info01.update.bean.test.Hello();
+    it.info01.proto.bean.test.Hello h = new it.info01.proto.bean.test.Hello();
     h.setTesto("CIAO. " + SDF.format(d));
     return Response.ok(mapper.writeValueAsString(h)).build();
   }
