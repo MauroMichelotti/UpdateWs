@@ -30,5 +30,6 @@ SEC: <div class="progress" ng-controller="Hello" style="width: 100px">
 </div>
 
 <i>Build: $Id$</i>
+<i>Build: $Format:%h$</i>
 </body>
 </html>
