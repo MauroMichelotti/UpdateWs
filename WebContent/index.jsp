@@ -29,5 +29,6 @@ SEC: <div class="progress" ng-controller="Hello" style="width: 100px">
     aria-valuemax="60" style="min-width: 1px; width: {{(100*dataOra.second/60)}}%;"> {{dataOra.second}}</div>
 </div>
 
+<i>Build: $Id$</i>
 </body>
 </html>
