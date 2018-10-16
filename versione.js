@@ -1,1 +1,1 @@
-var versione='2';
+var versione=\'\';
