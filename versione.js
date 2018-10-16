@@ -1,1 +1,1 @@
-var versione='7475fac';
+var versione='{VERSIONE}';
