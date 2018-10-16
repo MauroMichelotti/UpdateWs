@@ -1,5 +1,3 @@
 index.jsp  ident
 index.html ident
-version.txt export-subst
-LAST_COMMIT export-subst
 versione.js filter=versione

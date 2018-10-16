@@ -4,11 +4,14 @@
 <meta charset="UTF-8">
 <title>WebService Prototype</title>
 <script>
-var _versione = " $Id$ ";
+var _versione = "$Id$";
+var versione = _versione.substr(5)
+versione = versione.substr(0, versione.lastIndexOf(' $'));
+console.log('**'+versione+'**');
 </script>
 </head>
 <body>
   <h1>WebService Prototype</h1>
-  <i>Build: $Id$</i>
+  <i>Build: $Id: ed3fa3e9d8da367f65c83ba9525471030d3add42 $</i>
 </body>
 </html>
